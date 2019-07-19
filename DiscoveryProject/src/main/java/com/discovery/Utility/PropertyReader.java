@@ -3,7 +3,6 @@ package com.discovery.Utility;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
-
 public class PropertyReader {
 	private static String BUNDLE_NAME;
 	private static ResourceBundle bundle;

@@ -1,16 +1,11 @@
 package com.discovery.StepDef;
 
-
-
 import java.awt.AWTException;
-
 import org.openqa.selenium.By;
 import org.testng.Assert;
-
 import com.discovery.Utility.Constant;
 import com.discovery.Utility.LibraryFunction;
 import com.discovery.Utility.PropertyReader;
-
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
