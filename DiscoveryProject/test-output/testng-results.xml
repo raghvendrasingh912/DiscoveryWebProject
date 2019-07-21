@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-07-19T17:05:44Z" name="Default suite" finished-at="2019-07-19T17:07:50Z" duration-ms="125930">
+  <suite started-at="2019-07-21T11:50:24Z" name="Suite" finished-at="2019-07-21T11:51:05Z" duration-ms="40305">
     <groups>
     </groups>
-    <test started-at="2019-07-19T17:05:44Z" name="Default test" finished-at="2019-07-19T17:07:50Z" duration-ms="125930">
+    <test started-at="2019-07-21T11:50:24Z" name="Test" finished-at="2019-07-21T11:51:05Z" duration-ms="40305">
       <class name="com.discovery.TestRunner.TestRunner">
-        <test-method is-config="true" signature="setClass()[pri:0, instance:com.discovery.TestRunner.TestRunner@78ffe6dc]" started-at="2019-07-19T17:05:44Z" name="setClass" finished-at="2019-07-19T17:05:45Z" duration-ms="558" status="PASS">
+        <test-method is-config="true" signature="setClass()[pri:0, instance:com.discovery.TestRunner.TestRunner@78ffe6dc]" started-at="2019-07-21T11:50:25Z" name="setClass" finished-at="2019-07-21T11:50:26Z" duration-ms="1139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setClass -->
-        <test-method signature="features(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.discovery.TestRunner.TestRunner@78ffe6dc]" started-at="2019-07-19T17:05:45Z" name="features" data-provider="features" finished-at="2019-07-19T17:07:50Z" duration-ms="124983" status="PASS">
+        <test-method signature="features(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.discovery.TestRunner.TestRunner@78ffe6dc]" started-at="2019-07-21T11:50:26Z" name="features" data-provider="features" finished-at="2019-07-21T11:51:05Z" duration-ms="38482" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- features -->
-        <test-method is-config="true" signature="stopCucumberRunner()[pri:0, instance:com.discovery.TestRunner.TestRunner@78ffe6dc]" started-at="2019-07-19T17:07:50Z" name="stopCucumberRunner" finished-at="2019-07-19T17:07:50Z" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="stopCucumberRunner()[pri:0, instance:com.discovery.TestRunner.TestRunner@78ffe6dc]" started-at="2019-07-21T11:51:05Z" name="stopCucumberRunner" finished-at="2019-07-21T11:51:05Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopCucumberRunner -->
       </class> <!-- com.discovery.TestRunner.TestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -16,9 +16,11 @@ public class LibraryFunction {
 	public WebDriver driver;
 	JavascriptExecutor javaScriptExecutor;
 	String URL=PropertyReader.getLocatorValue("BROWSER_URL", "config");
+	String chromeExeValue=PropertyReader.getLocatorValue("CHROME_EXE_VALUE", "config");
+	String chromeExePath=PropertyReader.getLocatorValue("CHROME_EXE_PATH", "config");
 	public void setUPBrowserAndURL() {
 		driver=new ChromeDriver();
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		System.setProperty(chromeExeValue, chromeExePath);
 		driver.get(URL);
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
